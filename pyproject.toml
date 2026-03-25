@@ -1,0 +1,7 @@
+[project]
+name = "paper-reviewer"
+version = "0.1.0"
+description = "Draft of a paper reviewer tool using LLMs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
