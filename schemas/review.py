@@ -11,8 +11,8 @@ class PaperReview(BaseModel):
     novelty: SectionScore
     methodology: SectionScore
     experiments: SectionScore
-    advantage: str
-    weakness: str
+    strengths: str
+    weaknesses: str
     overall_score: float = Field(..., ge=1, le=5, multiple_of=0.5)
     recommendation: str  # "accept" | "conditional_accept" | "reject"
     related_papers: list[str] = []
